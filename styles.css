@@ -1,3 +1,7 @@
+:root {
+    --accentcolor: rgb(40, 82, 189);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -7,17 +11,24 @@ html, body {
 }
 
 header {
-    border: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .intro {
-    width: 60vw;
-    border: solid red;
+    max-width: 60vw;
     font-size: 2.3rem;
     text-align: center;
+    margin-top: 5rem;
+}
+
+header span {
+    font-size: 2.5rem;
+}
+
+.accent {
+    color: var(--accentcolor);
 }
 
 header img {
@@ -29,14 +40,40 @@ header img {
 }
 
 #contact {
-    border: solid blue;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     width: 20rem;
     margin: auto;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-left: 0.5rem;
+}
+
+.link-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.icon {
+    width: 2.5rem;
+}
+
+.youtube {
+    width: 4rem;
 }
