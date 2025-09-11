@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
 header {
     border: 1px solid;
     display: flex;
@@ -8,10 +16,18 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
 h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
     border-style: dashed;
-    width: 15rem;
+    width: 20rem;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 img {
