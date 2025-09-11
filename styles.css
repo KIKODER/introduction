@@ -25,6 +25,7 @@ h2 {
     font-size: 1.2rem;
     font-weight: 600;
     border-style: dashed;
+    border-color: gray;
     width: 20rem;
     margin: auto;
     margin-bottom: 2rem;
