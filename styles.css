@@ -1,0 +1,21 @@
+header {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    border-style: dashed;
+    width: 15rem;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
