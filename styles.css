@@ -27,14 +27,14 @@ header {
 
 .intro {
     max-width: 60vw;
-    font-size: 2.3rem;
+    font-size: 4rem;
     color: white;
     text-align: center;
     padding-top: 5rem;
 }
 
 header span {
-    font-size: 2.5rem;
+    font-size: 5rem;
 }
 
 .accentblue {
@@ -46,8 +46,8 @@ header span {
 }
 
 header img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: auto;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -60,12 +60,86 @@ header img {
     padding-top: 1rem;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-left: 0.5rem;
+}
+
 .secttitle {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     color: var(--accentblue);
     padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    color: var(--accentgray);
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
+}
+
+.animal {
+    background: var(--accentgray);
+    border-radius: 30px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal h3 {
+    font-size: 2rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.siamang {
+    border: solid black;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siamang img {
+    width: 10rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio {
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .favoritesgrid {
@@ -85,14 +159,12 @@ header img {
 }
 
 .favcard {
-    /* border: solid red; */
     text-align: center;
     width: auto;
     height: auto;
 }
 
 .favgrid {
-    /* border: solid blue; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -133,19 +205,6 @@ a {
 .contact {
     display: flex;
     justify-content: center;
-}
-
-h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 600;
-    width: 20rem;
-    margin: auto;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    margin-left: 0.5rem;
 }
 
 .link-container {
