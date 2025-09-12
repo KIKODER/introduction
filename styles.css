@@ -70,7 +70,7 @@ h2 {
 }
 
 h3 {
-    margin-left: 0.5rem;
+    margin-left: .5rem;
 }
 
 .secttitle {
@@ -93,53 +93,47 @@ h3 {
 }
 
 .container {
-    background: var(--accentgray);
-    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
     color: white;
-    width: 60%;
+    width: min(60%, 1000px);
     margin: auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0;
+    overflow: hidden;
 }
 
 .container h3 {
     font-size: 2rem;
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
+    margin-top: 0 0 .25rem 0;
 }
 
 .siamang {
-    border: solid black;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    justify-content: space-between;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    min-height: 260px;
 }
 
 .siamang img {
-    width: 10rem;
-    margin-left: 3rem;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 8px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
 }
 
 .info {
-    border: solid black;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
+    padding: 1.25rem 1.5rem;
     justify-content: center;
-    align-items: center;
 }
 
 .audio {
-    margin-top: -1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: .5rem;
 }
 
 .favoritesgrid {
@@ -155,7 +149,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 2rem;
-    color: white;
+    color: var(--accentgray);
 }
 
 .favcard {
@@ -175,7 +169,7 @@ h3 {
 .favgrid img {
     width: 150px;
     height: 200px;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 8px;
 }
 
@@ -184,7 +178,7 @@ h3 {
 }
 
 li {
-    margin: 0.5rem;
+    margin: .5rem;
     font-size: 1.2rem;
 }
 
