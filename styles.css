@@ -1,6 +1,6 @@
 :root {
     --accentblue: #636de3;
-    --accentgray: #a1a6d9;
+    --accentgray: #aeb3e6;
     --bgcolordark: #171a2f;
     --bgcolorlite: #9395d0;
 }
@@ -127,6 +127,7 @@ a {
     border: solid green;
     padding: 2rem;
     text-align: center;
+    color: white;
 }
 
 .contact {
