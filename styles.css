@@ -1,13 +1,19 @@
 :root {
-    --accentcolor: rgb(40, 82, 189);
+    --accentcolorlite: #636de3;
+    --accentcolordark: #a1a6d9;
+    --bgcolordark: #171a2f;
+    --bgcolorlite: #9395d0;
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     font-family: Arial, sans-serif;
+    background: var(--bgcolor);
+    background: linear-gradient(0deg, var(--bgcolorlite) 0%,var(--bgcolordark) 60%);
+    background-repeat: no-repeat;
 }
 
 /* Header Section*/
@@ -23,6 +29,7 @@ header {
 .intro {
     max-width: 60vw;
     font-size: 2.3rem;
+    color: white;
     text-align: center;
     padding-top: 5rem;
 }
@@ -31,8 +38,12 @@ header span {
     font-size: 2.5rem;
 }
 
-.accent {
-    color: var(--accentcolor);
+.accentlite {
+    color: var(--accentcolorlite);
+}
+
+.accentdark {
+    color: var(--accentcolordark);
 }
 
 header img {
@@ -54,10 +65,11 @@ header img {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+    color: var(--accentcolorlite);
 }
 
 .favoritesgrid {
-    border: solid;
+    border: solid greenyellow;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -66,6 +78,7 @@ header img {
 .title {
     font-size: 1.3rem;
     font-weight: bold;
+    color: white;
 }
 
 .favcard {
