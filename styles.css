@@ -13,16 +13,18 @@ html, body {
 /* Header Section*/
 
 header {
+    border: solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 }
 
 .intro {
     max-width: 60vw;
     font-size: 2.3rem;
     text-align: center;
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 header span {
@@ -45,6 +47,7 @@ header img {
 
 #favorites {
     border: solid red;
+    padding-top: 1rem;
 }
 
 .secttitle {
@@ -62,6 +65,7 @@ header img {
 
 .title {
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .favcard {
@@ -94,7 +98,8 @@ header img {
 /* Contact Section */
 
 #contact {
-    margin-top: 4rem;
+    border: solid green;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -109,7 +114,7 @@ h2 {
     font-weight: 600;
     width: 20rem;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
