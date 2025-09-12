@@ -41,6 +41,52 @@ header img {
     margin-bottom: 1rem;
 }
 
+/* Favorite Section */
+
+.favorites {
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.secttitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.favcard {
+    /* border: solid red; */
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.favgrid {
+    /* border: solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+    gap: 15px;
+}
+
+.favgrid img {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 8px;
+}
+
+.itemlist {
+    list-style: none;
+}
+
 /* Contact Section */
 
 #contact {
