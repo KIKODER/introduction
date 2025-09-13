@@ -15,10 +15,32 @@ html, body {
     background-repeat: no-repeat;
 }
 
+/* Nav Section */
+
+nav {
+    padding: 3rem;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    color: var(--accentgray);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1rem;;
+}
+
+/* About Section */
+
+
+
 /* Header Section*/
 
 header {
-    border: solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +134,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
-    min-height: 260px;
+    justify-content: center;
 }
 
 .inside img {
@@ -186,11 +208,6 @@ h3 {
 li {
     margin: .5rem;
     font-size: 1.2rem;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 /* Contact Section */
