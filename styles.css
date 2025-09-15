@@ -36,7 +36,9 @@ nav a {
 
 /* About Section */
 
-
+#about h2 {
+    color: var(--accentgray);
+}
 
 /* Header Section*/
 
