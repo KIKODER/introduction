@@ -263,8 +263,7 @@ li {
 /* Contact Section */
 
 #contact {
-    border: solid green;
-    padding: 2rem;
+    padding: 5rem;
     text-align: center;
     color: white;
 }
