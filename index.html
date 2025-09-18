@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1 class="intro">Hey, I'm <span class="accentblue">Dakota Bucks.</span> This a little about me.</h1>
-        <img src="/assets/pics_icons/portrait.PNG" alt="profile pic">
+        <img class="avatar" src="/assets/pics_icons/portrait.PNG" alt="Portrait of Dakota">
     </header>
 
     <nav>
@@ -19,62 +19,67 @@
     </nav>
 
     <section id="about">
-        <div>
-            <div class="secttitle">About Me:</div>
-            <div class="fact">
-                <h2>Education:</h2>
-                <div class="box">
-                    <h3>Major: Computer Science</h3>
-                    <h3>Past College(s): College of the Mainland (AS) </h3>
-                </div>
+        <div class="sect_title">About Me:</div>
+
+        <article class="fact">
+            <h2 class="fact_title">Education:</h2>
+            <div class="box">
+                <h3>Major: Computer Science</h3>
+                <h3>Past College(s): College of the Mainland (AS) </h3>
             </div>
-            <div class="fact">
-                <h2>Hobbies:</h2>
-                <div class="box">
-                    <ul>
-                        <li>Cooking</li>
-                        <li>Hiking</li>
-                        <li>Music / Drums</li>
-                        <li>Gaming</li>
-                    </ul>
-                </div>
+        </article>
+
+        <article class="fact">
+            <h2 class="fact_title">Hobbies:</h2>
+            <div class="box">
+                <ul>
+                    <li>Cooking</li>
+                    <li>Hiking</li>
+                    <li>Music / Drums</li>
+                    <li>Gaming</li>
+                </ul>
             </div>
-            <div class="fact">
-                <h2>Goals:</h2>
-                <div class="box">
-                    <ul>
-                        <li>Get a job in web development/software design</li>
-                        <li>Make games as an indie developer</li>
-                    </ul>
-                </div>
+        </article>
+
+        <article class="fact">
+            <h2 class="fact_title">Goals:</h2>
+            <div class="box">
+                <ul>
+                    <li>Get a job in web development/software design</li>
+                    <li>Make games as an indie developer</li>
+                </ul>
             </div>
-        </div>
+        </article>
     </section>
     
     <section id="favorites">
-        <div class="secttitle">Favorite Stuff:</div>
+        <div class="sect_title">Favorite Stuff:</div>
+
         <div class="favtrio">
             <div class="trio">
-                <h2 class="triotitle">Food</h2>
+                <h2 class="trio_title">Food</h2>
                 <h3>Italian</h3>
-                <img src="assets/pics_icons/italianfood.jpg" alt="italian">
+                <img src="assets/pics_icons/italianfood.jpg" alt="Various pasta dishes">
             </div>
+
             <div class="trio">
-                <h2 class="triotitle">Place To Visit</h2>
+                <h2 class="trio_title">Place To Visit</h2>
                 <h3>National Parks</h3>
-                <img src="assets/pics_icons/nationalpark2.jpg" alt="">
+                <img src="assets/pics_icons/nationalpark2.jpg" alt="A picture of a national park">
             </div>
+
             <div class="trio">
-                <h2 class="triotitle">Sports Team</h2>
+                <h2 class="trio_title">Sports Team</h2>
                 <h3>Astros</h3>
-                <img src="assets/pics_icons/Houston_Astros_cap_logo.png" alt="">
+                <img src="assets/pics_icons/Houston_Astros_cap_logo.png" alt="The Houston Astros logo">
             </div>
         </div>
-        <div class="favsect">
-            <h2 class="title">Animal</h2>
-            <div class="container siamang">
+
+        <article class="card">
+            <h2 class="card_title">Animal</h2>
+            <div class="container">
                 <div class="inside">
-                    <img src="assets/pics_icons/siamang.png" alt="Siamang">
+                    <img src="assets/pics_icons/siamang.png" alt="Picture of a Siamang">
                     <div class="info">
                         <h3>Siamang</h3>
                         <h4>Siamangs are the largest species of gibbon native to the forests of Malaysia, Thailand, and Sumatra. They live in small, monogamous
@@ -89,7 +94,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
+
         <div class="favoritesgrid">
             <div class="favcard">
                 <div class="title">Movies</div>
@@ -106,6 +112,7 @@
                     <li><a href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_empire%2520str" target="_blank">Star Wars: Episode V - The Empire Strikes Back</a></li>
                 </ul>
             </div>
+
             <div class="favcard">
                 <div class="title">Games</div>
                 <div class="favgrid">
@@ -122,6 +129,7 @@
                     <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker" target="_blank">The Legend Of Zelda: The Wind Waker</a></li>
                 </ul>
             </div>
+
             <div class="favcard">
                 <div class="title">Albums</div>
                 <div class="favgrid">
@@ -138,6 +146,7 @@
                     <li><a href="https://music.youtube.com/watch?v=g0NVaX8DRN4&si=IPX8d14bU2A2Yzm-" target="_blank">To Pimp A Butterfly - Kendrick Lamar</a></li>
                 </ul>
             </div>
+
             <div class="favcard">
                 <div class="title">Books</div>
                 <div class="favgrid">
@@ -159,14 +168,17 @@
 
     <section id="contact">
         <h2><span class="accentgray">Contact</span> Me:</h2>
+
         <div class="contact">
             <img src="assets/pics_icons/email.svg" alt="email" class="icon">
             <h3>bucksd3809@uhcl.edu</h3>
         </div>
+
         <div class="contact">
             <img src="assets/pics_icons/DiscordLite.svg" alt="discord" class="icon">
             <h3>kikoder</h3>
         </div>
+        
         <div class="link-container">
             <a href="https://www.youtube.com/@KIKODER" target="_blank"><img src="assets/pics_icons/YTDark.png" alt="youtube" class="youtube icon"></a>
             <a href="https://github.com/KIKODER" target="_blank"><img src="assets/pics_icons/GithubDark.png" alt="github"  class="icon"></a>
