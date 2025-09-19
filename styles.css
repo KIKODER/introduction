@@ -81,11 +81,11 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem 0rem;
+    margin: 2rem 0;
     padding: 1rem;
 }
 
-.fact_title {
+.fact-title {
     color: var(--accentgray);
 }
 
@@ -95,9 +95,12 @@ nav a {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: left;
-    width: 40%;
     padding: 1rem;
     border-radius: 35px;
+}
+
+.box li {
+    font-size: 1.5rem;
 }
 
 /* Favorite Section */
@@ -106,7 +109,7 @@ nav a {
     padding-top: 1rem;
 }
 
-.sect_title {
+.sect-title {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
@@ -131,7 +134,7 @@ nav a {
     box-sizing: border-box;
 }
 
-.trio_title {
+.trio-title {
     color: var(--accentgray);
     font-size: 2.2rem;
 }
@@ -151,7 +154,7 @@ nav a {
     flex-direction: column;
 }
 
-.card_title {
+.card-title {
     color: var(--accentgray);
     font-size: 2.2rem;
     text-align: center;
@@ -173,14 +176,14 @@ nav a {
     margin: auto;
 }
 
-.inside {
+.container-inside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
     justify-content: center;
 }
 
-.inside img {
+.container-inside img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -247,7 +250,7 @@ nav a {
     list-style: none;
 }
 
-li {
+.itemlist li {
     margin: .5rem;
     font-size: 1.4rem;
 }
@@ -283,6 +286,7 @@ li {
 
 .icon {
     width: 3.2rem;
+    padding-right: 1rem;
 }
 
 .youtube {
